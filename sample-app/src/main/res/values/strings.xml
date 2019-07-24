@@ -2,5 +2,58 @@
 <resources>
 
     <string name="app_name">OBD-Reader</string>
+    <string name="correo">Ingrese Correo</string>
+    <string name="contrasena">Ingrese Contraseña</string>
+    <string name="campo_vacio"></string>
+    <string name="ingresar">Iniciar Sesion</string>
+    <string name="registrar">Registrarte</string>
+    <string name="bienvenido">Bienvenido</string>
+    <string name="datos_no_validos"></string>
+    <string name="Menu_de_Opciones">Menu de Opciones</string>
+    <string name="INICIO">INICIO</string>
+    <string name="DATOS_PERSONALES">DATOS PERSONALES</string>
+    <string name="DIAGNOSTICO">DIAGNOSTICO</string>
+    <string name="AVISO">AVISO DE PRIVACIDAD</string>
+    <string name="cerrar_sesion">Cerrar sesion</string>
+    <string name="nombre">Nombre</string>
+    <string name="modelo">Modelo</string>
+    <string name="placa">Numero de Placa</string>
+    <string name="fecha">Fecha de Compra</string>
+    <string name="codigo">Codigo Arduino</string>
+    <string name="telefono">Telefono de Emergencia</string>
+    <string name="datos_adicionales">Datos Adicionales</string>
+    <string name="datos_usuario">DATOS DEL USUARIO</string>
+    <string name="correo_electronico">Correo Electronico:</string>
+    <string name="modelo_coche">Modelo del Coche:</string>
+    <string name="datos_coche">DATOS DEL COCHE</string>
+    <string name="nombre_usuario">Nombre:</string>
+    <string name="telefono_emergencia">Telefono de Emergencia:</string>
+    <string name="fecha_compra">Fecha de Compra:</string>
+    <string name="numero_placa">Numero de Placa:</string>
+    <string name="obd2">El OBD-II se encarga de monitorear constantemente todos los sistemas funcionales del auto y además almacena ciertos códigos de errores referentes a fallas que ocurren en tu auto. ¿Has visto alguna vez la famosa luz de “Check Engine? Pues esto es el OBD-II haciendo su trabajo, es decir que pudo haber marcado un error o falla momentánea algún sensor de oxígeno (una de las causas más comunes) o un cilindro pudo haber fallado, etc. La luz permanecerá encendida hasta que se lleve al taller con capacidad de recolectar estos datos y se haya verificado que todo esté bien y en orden</string>
+    <string name="configuracion">CONFIGURACION</string>
+    <string name="correo_no_valido">Ingrese un correo valido</string>
+    <string name="contra_pequena">Contraseña muy pequeña</string>
+    <string name="realizando_registro">Realizando registro en linea...</string>
+    <string name="error_reigstro">Error al registrar</string>
+    <string name="usuario_existente">Ya existe un usuario con ese correo.</string>
+    <string name="registrado">Registrado</string>
+    <string name="como_funciona">COMO FUNCIONA EL DISPOSITIVO</string>
+    <string name="uno">1.-Asegurese que el dispisitivo OBD-II sea el ELM327.</string>
+    <string name="dos">2.-Con el coche apagado conecte el dispositivo en la entrada de dicho componente.</string>
+    <string name="tres">3.-Encienda su auto y verifique que el dispositivo tambien encienda.</string>
+    <string name="cuatro">4.-Una vez realizado los pasos anteriores, dirijase al apartado de diagnostico en el menu de la aplicacion.</string>
+    <string name="cinco">5.-El bluetooth de su celular se encendera automaticamente y se conectara al dispositvo y en seguida le mostrara los sensores con los que cuenta.</string>
+
+
+
+    <string name="title_activity_navigation" translatable="false">navigation</string>
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+    <string name="nav_header_title" translatable="false">Android Studio</string>
+    <string name="nav_header_subtitle" translatable="false">android.studio@android.com</string>
+    <string name="nav_header_desc" translatable="false">Navigation header</string>
+    <string name="action_settings" translatable="false">Settings</string>
+    <string name="texto_privacidad">La presente Política de Privacidad establece los términos en que nuestra App usa y protege la información que es proporcionada por sus usuarios al momento de utilizar nuestra plataforma para dispositivos móviles. Esta compañía  está comprometida con la seguridad de los datos de sus usuarios. Cuando le pedimos llenar los campos de información personal con la cual usted pueda ser identificado, lo hacemos asegurando que sólo se empleará de acuerdo con los términos de este documento. Sin embargo esta Política de Privacidad puede cambiar con el tiempo o ser actualizada por lo que le recomendamos y enfatizamos  revisar continuamente esta sección  para asegurarse que está de acuerdo con dichos cambios.   Información tomada. Nuestra app puede recoger información personal por ejemplo:  Nombre,información de contacto como su dirección de correo electrónica e información demográfica. Así mismo cuando sea necesario podrá ser requerida  información específica para procesar algún trámite.   Uso de la información recogida. Nuestra App emplea la información con el fin de proporcionar el mejor servicio posible, particularmente para mantener un registro de usuarios, de trámites en caso que aplique, y mejorar nuestros productos y servicios.   Control de su información personal En cualquier momento usted puede restringir la recopilación o el uso de la información personal que es proporcionada a nuestra plataforma.   Nuestra App está altamente comprometida para cumplir con el  compromiso de mantener su información segura. Usamos los sistemas más avanzados y los actualizamos constantemente para asegurarnos que no exista ningún acceso no autorizado</string>
 
 </resources>

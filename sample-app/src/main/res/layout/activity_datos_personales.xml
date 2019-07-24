@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    tools:context=".datos_personales"
+    >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="226dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="100dp"
+        android:layout_toStartOf="@+id/imageView2"
+        android:layout_toLeftOf="@+id/imageView2"
+        android:text="@string/DATOS_PERSONALES"
+        android:textColor="#fff"
+        android:textSize="30dp" />
+
+    <LinearLayout
+        android:layout_width="328dp"
+        android:layout_height="360dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="74dp"
+        android:onClick="cancelar"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/txtCorreo"
+            android:layout_width="278dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/editstyle"
+            android:drawableLeft="@drawable/ic_https_blanco_24dp"
+            android:hint="@string/correo"
+            android:singleLine="true"
+            android:imeOptions="actionNext"
+            android:textColor="#fff"
+            android:textColorHint="#fff" />
+
+        <EditText
+            android:id="@+id/txtContra"
+            android:layout_width="278dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/editstyle"
+            android:drawableLeft="@drawable/ic_https_blanco_24dp"
+            android:hint="@string/contrasena"
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:inputType="textPassword"
+            android:singleLine="true"
+            />
+
+
+    </LinearLayout>
+
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="75dp"
+        android:layout_height="68dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="left"
+        android:layout_marginStart="64dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginBottom="91dp"
+        android:background="@drawable/cancelar"
+        android:onClick="cancelar" />
+
+    <ImageButton
+        android:id="@+id/imageRegistrar"
+        android:layout_width="95dp"
+        android:layout_height="83dp"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="right"
+        android:layout_marginEnd="-84dp"
+        android:layout_marginBottom="83dp"
+        android:layout_toStartOf="@+id/imageView2"
+        android:background="@drawable/siguiente"
+         />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="111dp"
+        android:layout_height="101dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginRight="22dp"
+        app:srcCompat="@drawable/ic_person_black_24dp" />
+
+
+</RelativeLayout>

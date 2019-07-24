@@ -4,6 +4,7 @@
 
     <uses-permission android:name="android.permission.BLUETOOTH" />
     <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.SEND_SMS"/>
 
     <application
         android:allowBackup="true"
@@ -11,14 +12,29 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity android:name=".SampleActivity">
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity
+            android:name=".SplashActivity"
+            android:label="AlertCar"
+            android:theme="@style/AppTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".navigation"
+            android:label="AlertCar" />
+        <activity
+            android:name=".SampleActivity"
+            android:label="Diagnostico" />
+        <activity android:name=".login" />
+        <activity android:name=".datos_personales" />
+        <activity android:name=".datos_adicionales" />
+        <activity android:name=".mostrar_datos" />
+        <activity android:name=".aviso_de_privacidad" />
+        <activity android:name=".configuracion"></activity>
     </application>
 
 </manifest>

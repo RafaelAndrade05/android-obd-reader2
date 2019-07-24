@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/DATOS_PERSONALES"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="@string/DATOS_PERSONALES" />
+        <item
+            android:id="@+id/CONFIGURACION"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:title="@string/configuracion" />
+        <item
+            android:id="@+id/DIAGNOSTICO"
+            android:icon="@drawable/ic_build_black_24dp"
+            android:title="@string/DIAGNOSTICO" />
+        <item
+            android:id="@+id/AVISO"
+            android:icon="@drawable/ic_info_black_24dp"
+            android:title="@string/AVISO" />
+    </group>
+
+    <item android:title="AlertCar">
+        <menu>
+            <item
+                android:id="@+id/nav_cerrar"
+                android:icon="@drawable/ic_exit_to_app_black_24dp"
+                android:title="@string/cerrar_sesion" />
+        </menu>
+    </item>
+
+</menu>

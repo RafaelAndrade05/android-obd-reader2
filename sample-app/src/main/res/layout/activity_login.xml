@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    android:orientation="vertical"
+    tools:context=".login">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="100dp"
+        android:text="@string/bienvenido"
+        android:textColor="#fff"
+        android:textSize="30dp" />
+
+    <EditText
+        android:id="@+id/txtCorreo"
+        android:layout_width="278dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/editstyle"
+        android:drawableLeft="@drawable/ic_email_blanco_24dp"
+        android:hint="@string/correo"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:singleLine="true"
+        android:imeOptions="actionNext"
+        />
+
+    <EditText
+        android:id="@+id/txtContra"
+        android:layout_width="278dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="90dp"
+        android:background="@drawable/editstyle"
+        android:drawableLeft="@drawable/ic_https_blanco_24dp"
+        android:hint="@string/contrasena"
+        android:inputType="textPassword"
+        android:singleLine="true"
+        android:textColor="#fff"
+        android:textColorHint="#fff" />
+
+    <Button
+        android:id="@+id/btnIniciar"
+        android:layout_width="246dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/botonstyle"
+        android:text="@string/ingresar" />
+
+    <Button
+        android:id="@+id/btnregistrar"
+        android:layout_width="246dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/botonstyle"
+        android:onClick="registrar"
+        android:text="@string/registrar" />
+
+
+</LinearLayout>

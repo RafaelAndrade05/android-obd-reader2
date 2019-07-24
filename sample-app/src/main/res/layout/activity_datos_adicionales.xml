@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    tools:context=".datos_personales"
+    >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="344dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/datos_adicionales"
+        android:textColor="#fff"
+        android:textSize="30dp"
+        android:layout_marginTop="5dp"
+        />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="125dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/etNombre"
+            android:layout_width="278dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/editstyle"
+            android:hint="@string/nombre"
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:digits="abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+            android:singleLine="true"
+            android:imeOptions="actionNext"
+            />
+
+        <EditText
+            android:id="@+id/etModelo"
+            android:layout_width="278dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/editstyle"
+            android:hint="@string/modelo"
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:singleLine="true"
+            android:imeOptions="actionNext"
+            />
+
+        <EditText
+            android:id="@+id/etPlaca"
+            android:layout_width="278dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/editstyle"
+            android:hint="@string/placa"
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:singleLine="true"
+            android:imeOptions="actionNext"
+            />
+
+        <EditText
+            android:id="@+id/etFecha"
+            android:layout_width="278dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/editstyle"
+            android:hint="@string/fecha"
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:inputType="date"
+            android:singleLine="true"
+            android:imeOptions="actionNext"
+            />
+
+        <EditText
+            android:id="@+id/etTelefono"
+            android:layout_width="278dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/editstyle"
+            android:hint="@string/telefono"
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:inputType="phone"
+            />
+
+        <EditText
+            android:id="@+id/etCodigoArduino"
+            android:layout_width="278dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/editstyle"
+            android:hint="@string/codigo"
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:inputType="text"
+            android:singleLine="true"
+            android:imeOptions="actionNext"
+            />
+
+        <ImageButton
+            android:id="@+id/imageRegistrar"
+            android:layout_width="70dp"
+            android:layout_height="87dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="18dp"
+            android:background="@drawable/ok"
+            android:onClick="registrar" />
+
+    </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+</RelativeLayout>
